@@ -13,6 +13,8 @@ html {
     padding-left: 0px;
     padding-right: 0px;
     background-color: inherit;
+    min-width: 480px;
+    min-height: 640px;
 }
 body {
     margin-left: 0px;
@@ -49,8 +51,9 @@ div {
     color: inherit;
     font-family: "Comic Sans MS", cursive, sans-serif;
     position: relative;
+    overflow: hidden;
     text-align: center;
-    font-size: 10rem;
+    font-size: 900%;
 
 
 }
@@ -63,12 +66,14 @@ div {
 }
 .jumbotron > .container {
     background-image: url("../img/Header.jpg");
+    box-shadow: 2px 2px 4px black;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 h2 {
     color: #442E35;
-    font-size: 300%;
+    font-size: 3.5rem;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: bold;
 /*    text-shadow: 1px 1px 2px black;*/
