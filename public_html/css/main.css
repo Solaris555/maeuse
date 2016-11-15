@@ -1,0 +1,95 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+html {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: inherit;
+}
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: green;
+
+
+
+}
+
+div {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+
+.jumbotron {
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    color: inherit;
+
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.jumbotron h1 {
+    color: inherit;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 10rem;
+
+
+}
+
+.jumbotron p {
+    color: inherit;
+    position: relative;
+    text-decoration: underline;
+    text-align: center;
+}
+.jumbotron > .container {
+    background-image: url("../img/Header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2 {
+    color: #442E35;
+    font-size: 300%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+/*    text-shadow: 1px 1px 2px black;*/
+    text-shadow: -0.5px 0 black, 0 1px black, 0.5px 0 black, 0 -1px #614B51;
+    margin-bottom: 10px;
+}
+img {
+    border: solid #222 2px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px darkslategray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
